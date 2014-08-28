@@ -1,0 +1,340 @@
+.headSlider{
+	overflow: hidden;
+	padding: 5px 0;
+}
+
+.headSlider.fixed{
+	background: rgba(255,255,255,0.95);
+	position: fixed;
+	z-index: 1;
+	width: 700px;
+	top:0;
+}
+
+.content h1, .content .headSlider h2{
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 32px;
+	float: left;
+}
+
+.content .headSlider .controlsHistory{
+    float: right;
+}
+
+.sliderWrapper{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.sliderWrapper .slider{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.sliderWrapper .historyWrapper.active {
+	display: block;
+	position: static;
+}
+
+.sliderWrapper .historyWrapper {
+	background: #fff;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	z-index: 1;
+}
+
+.content .historyWrapper {	
+	width: 700px;
+	overflow: hidden;
+	float: left;
+}
+
+.content .headSlider .controlsHistory div, .content .headSlider .historyWrapper .controlsHistory div {
+	margin-left: 10px;
+	font-size: 36px;
+	color: #06F;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.bottomSlider{
+	overflow: hidden;
+	background: #FFFFD7;
+	border: 1px solid #E1DB66;
+	color: #06F;
+	padding: 5px 0;
+}
+
+.bottomSlider p{
+	font-size: 13px;
+}
+
+.bottomSlider p.name {
+	font-size: 20px;
+}
+
+.content .bottomSlider .controlsHistory div{
+	width: 190px;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+.content .bottomSlider .controlsHistory div:before{
+	display: inline-block;
+	line-height: 43px;
+	font-size: 36px;
+	text-align: center;
+	width: 30px;
+}
+
+.content .bottomSlider .controlsHistory .previous_slider:before{
+	float: left;
+}
+
+.content .bottomSlider .controlsHistory .previous_slider{
+	text-align: left;
+	float:left;
+}
+
+.content .bottomSlider .controlsHistory .next_slider:before{
+	float: right;
+}
+
+.content .bottomSlider .controlsHistory .next_slider{
+	float:right;
+	text-align: right;
+}
+
+.content .thesis{
+    margin: 10px 0 20px 0;
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    clear: both;
+}
+
+.content .historyWrapper .headSlider{
+	display: none;
+	width: 700px;
+	position: fixed;
+	font-size: 26px;
+	top: 0;
+	line-height: 32px;
+	padding: 20px 0 10px 0;
+}
+
+.content h3{
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    font-family: 'Arial Regular', 'Arial';
+    font-weight: normal;
+}
+
+.content .thesis p{
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Arial Regular', 'Arial';
+}
+
+.content .thesis p.shortDescription{
+	margin-bottom: 10px;
+}
+
+.content .thesis .thesisWrap{
+    
+}
+
+.content .thesis .imgWrapper {
+	position: relative;
+	float: right;
+	border: 1px solid #ccc;
+	margin: 0 0 5px 5px;
+	width: 220px;
+	height: 115px;
+}
+
+.content .thesis img{
+    max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	position: absolute;
+}
+
+.table .tableHead{
+	border-bottom: 1px solid #333;
+	overflow: hidden;
+	height: 50px;
+}
+
+.tableHead .cell{
+	float: left;
+	font-size: 14px;
+	height: 100%;
+}
+
+.cell{
+	float:left;
+}
+
+.tableHead .cell.keyWord{
+	font-size: 20px;
+	color: #333;
+	line-height: 24px;
+}
+
+.cell.keyWord{
+	width: 260px;
+	padding-right: 10px;
+}
+
+.tableHead .text {
+	position: absolute;
+	right: 0;
+	bottom: 4px;
+}
+
+.rows .cell.keyWord{
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+.cell.date{
+	width: 80px;
+	text-align: right;
+	font-size: 12px;
+}
+
+.tableHead .cell.date{
+	position: relative;
+	height: 100%;
+}
+
+.rows .cell.date, .rows .cell.dateNow{
+	font-size: 16px;
+}
+
+.cell.dateBefore{
+	width: 105px;
+}
+
+.tableHead .cell.dateNow.date{
+	font-size: 20px;
+	color: #333;
+	line-height: 24px;
+}
+
+.cell.dateNow{
+	width: 140px;
+	text-align: center;
+	padding-left: 10px;
+}
+
+.cell.dateNow a{
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.cell.dateNow a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+	color: rgb(153, 0, 0);
+}
+
+.cell.dateNow a:hover i{
+	text-decoration: underline;
+}
+
+.table .rows{
+	border: 1px solid #ccc;
+	border-top: none;
+	border-bottom: none;
+}
+
+.table .row {
+    padding: 10px 0px;
+    width: 100%;
+    display: inline-block;
+}
+
+.table .rows .row{
+	border-bottom: 1px solid #ccc;
+}
+
+a.js-showKeyWords{
+	display: block;
+	padding: 10px 20px;
+	background: #dedede;
+	color: #333;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+a.js-showKeyWords:hover{
+	background: #bebebe;
+	color:#333;
+}
+
+.content .aboutCompanyWrapper{
+	clear: both;
+	margin-top: 30px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.content .aboutCompanyWrapper img{
+    margin-right: 10px;
+    float: left;
+    width: 140px;
+}
+
+.content .aboutCompany{
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.bottomControls {
+	background: #ffffd7;
+	border: 1px solid #e1db66;
+	margin: 10px 0;
+	padding: 5px 10px;
+	overflow: hidden;
+}
+
+.bottomControls a{
+	text-decoration: none;
+}
+
+.bottomControls .previous_slider {
+	float: left;
+}
+
+.bottomControls .fa.fa-angle-left {
+	float: left;
+	font-size: 36px;
+	padding-right: 10px;
+}
+
+.bottomControls .next_slider {
+	float: right;
+}
+
+.bottomControls .fa.fa-angle-right {
+	float: right;
+	font-size: 36px;
+	padding-left: 10px;
+}

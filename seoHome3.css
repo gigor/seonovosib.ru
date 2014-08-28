@@ -1,0 +1,247 @@
+.content p{
+    font-size:13px;
+    line-height: 16px;
+    padding: 0;
+}
+
+.content .wrapContent{
+    padding: 0;
+}
+
+
+
+.content .thesis{
+    margin-top: 10px;
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content .thesis p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.content h2{
+    margin: 20px 0 10px 0;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'Arial Regular', 'Arial';
+    font-weight: normal;
+}
+
+.content .methodBlockList{
+    margin-top: 20px;
+    clear: both;
+}
+
+.content .methodBlockList .methodBlock{
+    margin-right: 20px;
+    float: left;
+    width: 160px;
+}
+
+.content h3{
+    margin: 5px 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Arial Regular', 'Arial';
+    font-weight: normal;
+}
+
+.content .methodBlock .fa:before{
+    font-size: 48px;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+}
+
+.content .methodBlock .fa {
+    background: #f2f2f2;
+    padding: 56px 50px;
+    border-radius: 100px;
+    color: #0066FF;
+    box-shadow: 0px 0 10px rgba(0,0,0,1);
+}
+
+.content .methodBlockList h2{
+    padding-bottom: 10px;
+}
+
+.content .headSlider h2{
+    float: left;
+}
+
+.content .methodBlockList .methodBlock:last-of-type{
+    margin: 0;
+}
+
+.content .methodBlockList .methodBlock img{
+    width: 160px;
+    height: 160px;
+}
+
+.content .sliderWrapper .slider p, .content .sliderWrapper .slider a{
+    font-size:16px;
+    line-height: 20px;
+    font-family: 'Lucida Grande';
+}
+
+.content .sliderWrapper .slider p:first-of-type{
+    margin: 5px 0;
+}
+
+.content .clientPromoInfo{
+    height: 70px;
+    margin: 10px 0 ;
+}
+
+.content .tariffList{
+    clear: both;
+    margin-top: 20px;
+}
+
+.content .tariffList h2{
+    margin: 0 0 -10px 0;
+}
+
+.content .tariffBlock .headTariffBlock{
+    font-family: 'Arial Regular', 'Arial';
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+.content .tariffBlock{
+    font-family: 'Arial Regular', 'Arial';
+    font-size: 13px;
+}
+
+.content .tariffList .tariffBlock{
+    position: relative;
+    margin-top: 30px;
+    float: left;
+    width: 198px;
+    height: 433px;
+    padding: 5px 10px 50px 10px;
+    border: 1px solid #444;
+}
+
+.content .tariffBlock:nth-of-type(2){
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 448px;
+}
+
+.content .tariffList .tariffBlock:last-of-type{
+    height: 463px;
+    float: right;
+    margin-right: 0;
+    margin-top: 0px;
+}
+
+.content .tariffList .tariffBlock .regionTariffBlock{
+    margin: 5px 0;
+}
+
+.content .tariffList .tariffBlock .priceGood{
+    color: white;
+    font-weight: bold;
+    display: block;
+    line-height: 18px;
+    padding: 10px;
+    font-size: 16px;
+    position: absolute;
+    background: #fd5719;
+    bottom: 7px;
+    left: -5px;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, .2);
+    border-bottom: 1px solid #e33c09;
+    border-top: 1px solid #fec9b4;
+}
+
+.content .tariffList .tariffBlock .priceGood:after{
+    display: inline-block;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 15px solid #fd5719;
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: -14px;
+    top: 0px;
+    content: "";
+}
+
+.content .clientInfo{
+    width: 340px;
+    padding-right: 10px;
+    overflow: hidden;
+    float:left;
+}
+
+.content .clientInfo .imgWrapper{
+    position: relative;
+    border: 1px solid #ccc;
+    width: 270px;
+    height: 80px;
+}
+
+.logosList{
+    text-align:justify;
+}
+
+.logosList a.logoLink {
+    text-decoration: none;
+}
+
+.logosList img{
+    height: 60px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    height: 60px;
+}
+
+.content .clientInfo .clientLogo{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+}
+
+.content .headSlider{
+    clear: both;
+    overflow: hidden;
+}
+
+.content .sliderWrapper{
+    margin: 15px 0 25px 0;
+    width: 700px;
+}
+
+.content .sliderWrapper .slider{
+    display: inline-block;
+    overflow: hidden;
+    width: 700px;
+    float: left;
+}
+
+.content .controls{
+    float: right;
+}
+
+.content .controls div{
+    margin-left: 10px;
+    font-size: 36px;
+    color: #06F;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content .controls div:hover{
+    color: #990000;
+}

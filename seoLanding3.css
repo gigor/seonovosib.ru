@@ -1,0 +1,321 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    font-family: "Arial";
+}
+
+body,html{
+    height: 100%;
+}
+
+#wrap{
+    min-height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size:14px;
+    line-height: 16px;
+    font-family: Arial;
+    color:#333333;
+}
+
+a, a:visited {
+    color:#0088cc;
+    font-family: Arial;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+a:hover {
+    color:#0088cc;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.cleaner10, .cleaner20, .cleaner30, .cleaner40 {
+    line-height: 0px;
+    clear: both;
+}
+
+.cleaner10 {height: 10px;}
+.cleaner20 {height: 20px;}
+.cleaner30 {height: 30px;}
+.cleaner40 {height: 40px;}
+
+.container {
+    width:  940px;
+    margin: 0 auto;
+}
+
+.leftSiteBar{
+	width: 220px;
+	position: fixed;
+	margin-right: 20px;
+}
+
+.leftSiteBar .infoNovosib{
+	overflow: hidden;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.leftSiteBar .infoNovosib.scroll{
+	border: 1px solid #ccc;
+}
+
+.leftSiteBar .contacts{
+	display: none;
+	font-size: 13px;
+}
+
+.leftSiteBar .contacts .phone{
+	font-weight: bold;
+	font-size: 18px;
+	margin: 20px 0 5px 0;
+}
+
+.content .topContacts .contactBlock p{
+	line-height: 20px;
+}
+
+.content .topContacts .contactBlock .phone{
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.leftSiteBar .leftMenu ul{
+	list-style: none;
+}
+
+.leftSiteBar .leftMenu ul li {
+}
+
+.leftSiteBar .leftMenu ul li a{
+	display: block;
+	text-align: left;
+}
+
+.content {
+	float: right;
+    width: 700px;
+    padding: 0px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.content .topContacts{
+	text-align: right;
+	height: 40px;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+
+.content .topContacts .contactBlock {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.content .feedBack{
+    overflow: hidden;
+    float: left;
+    padding-top: 20px;
+}
+
+.content .form form p{
+    line-height: 24px;
+}
+
+.content .contacts a{
+    font-size:13px;
+}
+
+.content .contacts .tel span{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.content .form{
+    width: 458px;
+    float:left;
+}
+
+.content .form form{
+    border: 1px solid #444;
+}
+
+.content .form form .formWrapper{
+    padding: 5px 10px 10px 10px;
+}
+
+.content .form textarea{
+    vertical-align: top;
+    border-radius: 2px;
+    min-height: 130px;
+    width: 430px;
+    border: 1px solid #ddd;
+    padding: 0;
+    outline: none;
+    padding-left: 5px;
+    padding-top: 2px;
+    font-size: 14px;
+    margin: 1px;
+    resize: none;
+    font-family: Arial;
+    line-height: 20px;
+}
+
+.content .form input[type="text"] {
+    width: 290px;
+    outline: none;
+    font-family: Arial;
+    line-height: 20px;
+    font-size: 14px;
+    border-radius: 2px;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding: 0;
+    padding-left: 5px;
+    outline: none;
+}
+
+.content .funcButton {
+    overflow: hidden;
+    display: block;
+    border: 1px solid #96aad8;
+    background: #e9f2fc;
+    padding: 15px 0 15px 10px;
+}
+
+.content .funcButton input[type="submit"]{
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #f0922d;
+    background: #ffe68a;
+    background: -moz-linear-gradient(top, #ffe68a 0%, #ffb241 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffe68a), color-stop(100%,#ffb241));
+    background: -webkit-linear-gradient(top, #ffe68a 0%,#ffb241 100%);
+    background: -o-linear-gradient(top, #ffe68a 0%,#ffb241 100%);
+    background: -ms-linear-gradient(top, #ffe68a 0%,#ffb241 100%);
+    background: linear-gradient(to bottom, #ffe68a 0%,#ffb241 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe68a', endColorstr='#ffb241',GradientType=0 );
+    color: #444;
+    text-decoration: none;
+    line-height: 20px;
+    padding: 10px 30px;
+    height: 40px;
+    font-weight: normal;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.content.funcButton input[type="submit"]:hover {
+    background: #fff9a6;
+    background: -moz-linear-gradient(top, #fff9a6 0%, #ffd72e 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff9a6), color-stop(100%,#ffd72e));
+    background: -webkit-linear-gradient(top, #fff9a6 0%,#ffd72e 100%);
+    background: -o-linear-gradient(top, #fff9a6 0%,#ffd72e 100%);
+    background: -ms-linear-gradient(top, #fff9a6 0%,#ffd72e 100%);
+    background: linear-gradient(to bottom, #fff9a6 0%,#ffd72e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9a6', endColorstr='#ffd72e',GradientType=0 );
+}
+
+.content .contacts {
+    overflow: hidden;
+    width: 220px;
+    float: right;
+    padding-top: 50px;
+}
+
+.content h1{
+    padding: 0;
+    font-size: 26px;
+    line-height: 32px;
+    font-family: 'Arial Regular', 'Arial';
+    font-weight: normal;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder, textarea:-moz-placeholder {
+}
+input:focus:-moz-placeholder, textarea:focus:-moz-placeholder {
+    color: transparent;
+}
+
+/* Firefox > 19 */
+input::-moz-placeholder, textarea::-moz-placeholder {
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    color: transparent;
+}
+
+/* Internet Explorer 10 */
+input:-ms-input-placeholder, textarea:-ms-input-placeholder  {
+}
+
+input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.questReady {
+    display: none;
+    border-radius: 10px;
+    background: #ddffd5;
+    border: 1px solid #a7d093;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    min-height: 73px;
+    max-height: 73px;
+    max-width: 478px;
+}
+    
+.questReady .headOk{
+    border-bottom: 1px solid #444;
+    overflow: hidden;
+    font-size: 16px;
+}
+    
+.questReady .headOk p {
+    float: left;
+    padding: 10px;
+}
+
+.questReady .closeWindow{
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+}
+    
+.questReady p:last-of-type{
+    padding: 10px;
+}
