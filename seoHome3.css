@@ -1,3 +1,6 @@
+#wrap{
+    padding-top:10px;
+}
 .content p{
     font-size:13px;
     line-height: 16px;
@@ -13,40 +16,51 @@
 .content .thesis{
     margin-top: 10px;
     background: #f2f2f2;
-    padding: 10px;
+    padding: 16px;
     border-radius: 10px;
 }
 
 .content .thesis p{
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 1.4;
+    font-style: italic;
+    
 }
 
 .content h2{
-    margin: 20px 0 10px 0;
+    margin: 32px 0 5px 0;
+    margin: 32px 0 5px 0;
     font-size: 22px;
     line-height: 26px;
-    font-family: 'Arial Regular', 'Arial';
+   // font-family: 'Arial Regular', 'Arial', sans-serif;
     font-weight: normal;
 }
-
-.content .methodBlockList{
-    margin-top: 20px;
-    clear: both;
-}
-
-.content .methodBlockList .methodBlock{
-    margin-right: 20px;
-    float: left;
-    width: 160px;
-}
-
 .content h3{
     margin: 5px 0;
     font-size: 18px;
     line-height: 22px;
-    font-family: 'Arial Regular', 'Arial';
+ //   font-family: 'Arial Regular', 'Arial';
     font-weight: normal;
+}
+/*Methods*/
+.content .methodBlockList{
+    margin-top: 20px;
+    clear: both;
+}
+.content .methodBlockList:after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 1px;
+    line-height: 1px;
+}
+.content .methodBlockList h2{
+    padding-bottom: 5px;
+}
+.content .methodBlockList .methodBlock{
+    margin-right: 20px;
+    float: left;
+    width: 160px;
 }
 
 .content .methodBlock .fa:before{
@@ -57,21 +71,13 @@
 }
 
 .content .methodBlock .fa {
-    background: #f2f2f2;
-    padding: 56px 50px;
+    background: #fafafa;
+    padding: 44px 40px;
     border-radius: 100px;
     color: #0066FF;
-    box-shadow: 0px 0 10px rgba(0,0,0,1);
+    border: 1px solid #fff;
+    box-shadow: 0px 0 10px rgba(0,0,0, 0.5);
 }
-
-.content .methodBlockList h2{
-    padding-bottom: 10px;
-}
-
-.content .headSlider h2{
-    float: left;
-}
-
 .content .methodBlockList .methodBlock:last-of-type{
     margin: 0;
 }
@@ -81,14 +87,62 @@
     height: 160px;
 }
 
+
+/*Slider*/
+.content .headSlider{
+    clear: both;
+    overflow: hidden;
+    margin: 32px 0 5px;
+}
+
+.content .headSlider H2{
+    margin:0;
+    float: left;
+    line-height: 36px;
+}
+.content .headSlider .controls{
+    float: right;
+}
+
+.content .headSlider  .controls div{
+    margin-left: 10px;
+    font-size: 36px;
+    color: #06F;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content .headSlider .controls div:hover{
+    color: #990000;
+}
+
+
+.content .sliderWrapper{
+    margin: 0px 0 25px 0;
+    width: 700px;
+}
+
+.content .sliderWrapper .slider{
+    display: inline-block;
+    overflow: hidden;
+    width: 700px;
+    float: left;
+}
+
 .content .sliderWrapper .slider p, .content .sliderWrapper .slider a{
     font-size:16px;
     line-height: 20px;
-    font-family: 'Lucida Grande';
 }
 
 .content .sliderWrapper .slider p:first-of-type{
     margin: 5px 0;
+}
+
+.content .clientInfo{
+    width: 330px;
+    padding-right: 20px;
+    overflow: hidden;
+    float:left;
 }
 
 .content .clientPromoInfo{
@@ -96,6 +150,41 @@
     margin: 10px 0 ;
 }
 
+.content .clientInfo .imgWrapper{
+    height: 80px;
+}
+.content .clientInfo .clientLogo{
+    max-width: 330px;
+    max-height: 100%;
+    border: 1px solid #ccc;
+}
+
+.logosList{
+    text-align:center;
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.logosList a.logoLink {
+    text-decoration: none;
+    margin: 5px 0;
+    display: inline-block;
+    background: #fff;
+}
+
+.logosList img{
+    height: 60px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    height: 60px;
+}
+
+
+
+
+/*Tariflist*/
 .content .tariffList{
     clear: both;
     margin-top: 20px;
@@ -173,75 +262,3 @@
     content: "";
 }
 
-.content .clientInfo{
-    width: 340px;
-    padding-right: 10px;
-    overflow: hidden;
-    float:left;
-}
-
-.content .clientInfo .imgWrapper{
-    position: relative;
-    border: 1px solid #ccc;
-    width: 270px;
-    height: 80px;
-}
-
-.logosList{
-    text-align:justify;
-}
-
-.logosList a.logoLink {
-    text-decoration: none;
-}
-
-.logosList img{
-    height: 60px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    height: 60px;
-}
-
-.content .clientInfo .clientLogo{
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    top: 0;
-    position: absolute;
-}
-
-.content .headSlider{
-    clear: both;
-    overflow: hidden;
-}
-
-.content .sliderWrapper{
-    margin: 15px 0 25px 0;
-    width: 700px;
-}
-
-.content .sliderWrapper .slider{
-    display: inline-block;
-    overflow: hidden;
-    width: 700px;
-    float: left;
-}
-
-.content .controls{
-    float: right;
-}
-
-.content .controls div{
-    margin-left: 10px;
-    font-size: 36px;
-    color: #06F;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.content .controls div:hover{
-    color: #990000;
-}
