@@ -68,6 +68,14 @@ a:hover {
 	position: fixed;
 	margin-right: 20px;
 }
+.leftSiteBar .back{
+    height:30px;
+    line-height: 30px;
+    ///padding-left: 10px;
+    margin-bottom: 10px;
+        
+}
+
 
 .leftSiteBar .infoNovosib{
 	overflow: hidden;
@@ -86,7 +94,7 @@ a:hover {
 }
 
 .leftSiteBar .contacts .phone{
-	font-weight: bold;
+	//font-weight: bold;
 	font-size: 18px;
 	margin: 20px 0 5px 0;
 }
@@ -133,38 +141,45 @@ a:hover {
 	margin-left: 20px;
 }
 
+
+/*Feedback*/
 .content .feedBack{
     overflow: hidden;
     float: left;
-    padding-top: 20px;
+    padding-top: 50px;
+    
 }
-
-.content .form form p{
-    line-height: 24px;
-}
-
-.content .contacts a{
-    font-size:13px;
-}
-
-.content .contacts .tel span{
-    font-size: 18px;
-    line-height: 24px;
-}
-
+/*Feedback Layout*/
 .content .form{
-    width: 458px;
+    width: 460px;
     float:left;
 }
-
-.content .form form{
-    border: 1px solid #444;
+.content .contacts {
+    width: 200px;
+    float: right;
+    padding-left: 20px;
 }
 
+/*Feedback Form*/
+.content .form h2{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: normal;
+}
 .content .form form .formWrapper{
     padding: 5px 10px 10px 10px;
 }
-
+.content .form form label{
+    display: block;
+    padding: 10px 0 5px;
+}
+.content .form form{
+    border: 1px solid #ccc;
+    background: #fafafa;
+    border-radius: 2px;
+}
 .content .form textarea{
     vertical-align: top;
     border-radius: 2px;
@@ -195,15 +210,34 @@ a:hover {
     padding-left: 5px;
     outline: none;
 }
-
-.content .funcButton {
+.content .form .funcButton {
     overflow: hidden;
     display: block;
     border: 1px solid #96aad8;
+    border-width: 1px 0 0 0;
     background: #e9f2fc;
     padding: 15px 0 15px 10px;
 }
 
+
+/*Feedback Contacts*/
+.content .contacts H3{
+    margin-bottom: 1px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+}
+.content .contacts a{
+    font-size:13px;
+}
+
+.content .contacts .tel span{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+/*Misc*/
 .content .funcButton input[type="submit"]{
     float: left;
     text-decoration: none;
@@ -236,13 +270,6 @@ a:hover {
     background: -ms-linear-gradient(top, #fff9a6 0%,#ffd72e 100%);
     background: linear-gradient(to bottom, #fff9a6 0%,#ffd72e 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9a6', endColorstr='#ffd72e',GradientType=0 );
-}
-
-.content .contacts {
-    overflow: hidden;
-    width: 220px;
-    float: right;
-    padding-top: 50px;
 }
 
 .content h1{

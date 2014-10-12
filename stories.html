@@ -1,6 +1,5 @@
 <html>
 <head>
-
 	<meta charset="utf-8">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
@@ -25,7 +24,7 @@
 				<div class="infoNovosib">
 					<div class="logo">
 						<a href="http://novosib.ru">
-							<img src="http://novosib.ru/for_main/images/logo.png" alt="Новосиб.ру"></a>
+							<img src="/images/logo.png" alt="Новосиб.ру"></a>
 					</div>
 					<div class="contacts">
 						<p class="phone">+7 (383) 363-65-28</p>
@@ -35,6 +34,7 @@
 					</div>
 				</div>
 				<div class="leftMenu">
+					<p class="back"><a href="http://"><i class="fa fa-chevron-left fa-fw fa-lg"></i>Главная</a></p>
 					<ul>
 						<li>
 							<a href="#" data-sliderLink="js-company-1" data-namecompany="daina" class="btn btn-primary active">«Дайна»</a>
@@ -300,51 +300,54 @@
 				</div>
 
 				<div class="feedBack">
-					<h2 class="js-scroll js-scroll-bottom">Как с нами связаться</h2>
-					<div class="form">
-						<form id="response" method="POST">
-							<div class="formWrapper">
+                    <div class="form">
+                       <h2 class="js-scroll js-scroll-bottom">Как с нами связаться</h2>
+                       <form id="response" method="POST">
+                            <div class="formWrapper">
+                                <div class="f-row">
+                                    <label>Адрес сайта</label>
+                                    <input id="site" name="site" type="text">
+                                </div>
+                                <div class="f-row">       
+                                    <label>Как вас зовут?</label>
+                                    <input id="name" name="name" type="text">
+                                </div>
+                                <div class="f-row">           
+                                    <label>Эл. почта или телефон для связи с вами</label>
+                                    <input id="email" name="email" type="text">
+                                </div>
+                                <div class="f-row">           
+                                    <label>Расскажите о целях продвижения</label>
+                                    <textarea 
+                                        placeholder="В каких регионах хотите продвигаться? Что ждёте от продвижения? Любая важная по вашему мнению информация" 
+                                        id="text" 
+                                        class="autosize" 
+                                        name="text"></textarea>
+                                </div>    
+                            </div><!--/.formWrapper-->
 
-								<p>Адрес сайта</p>
-								<input id="site" name="site" type="text">
-								<p>Как вас зовут?</p>
-								<input id="name" name="name" type="text">
-								<p>Эл. почта или телефон для связи с вами</p>
-								<input id="email" name="email" type="text">
-								<p>Расскажите о целях продвижения</p>
-								<textarea placeholder="В каких регионах хотите продвигаться? Что ждёте от продвижения? Любая важная по вашему мнению информация" id="text" class="autosize" style="overflow: hidden; word-wrap: break-word; resize: none; height: 130px;" name="text"></textarea>
+                            <div class="funcButton">
+                                <input type="submit" value="Отправить заявку">
+                            </div>
+                        </form>
+                    </div><!--/.form-->
 
-							</div>
-
-							<div class="funcButton">
-								<input type="submit" value="Отправить заявку"></div>
-						</form>
-					</div>
-				</div>
-
-				<div class="contacts">
-					<p>
-						<span style="font-size: 18px;">Контакты</span>
-					</p>
-					<br>
-					<p class="tel">
-						<span style="font-size: 18px;">+7 (383) 363-65-28</span>
-					</p>
-					<p>Отдел продаж в Новосибирске</p>
-					<br>
-					<p class="tel">
-						<span style="font-size: 18px;">+7 (383) 363-65-28</span>
-					</p>
-					<p>Отдел продаж в Москве</p>
-					<br>
-					<p class="tel">
-						<span style="font-size: 18px;">+7 (383) 363-65-28</span>
-					</p>
-					<p>Поддержка клиентов</p>
-					<br>
-					<a href="mailto:info@novosib.ru">info@novosib.ru</a>
-					<a href="http://vk.com/optom_odezhda">vk.com/optom_odezhda</a>
-				</div>
+                    <div class="contacts">
+                        <h3>Контакты</h3>
+                        <p class="tel"><span>+7 (383) 363-65-28</span></p>
+                        <p class="tel"><span>+7 (962) 840-65-29</span></p>
+                        <p>Отдел продаж в Новосибирске</p>
+                        <br>
+                        <p class="tel"><span>+7 (495) 380-48-07</span></p>
+                        <p>Отдел продаж в Москве</p>
+                        <br>
+                        <p class="tel"><span>+7 (383) 363-65-29</span></p>
+                        <p>Поддержка клиентов</p>
+                        <br>
+                        <a href="mailto:info@novosib.ru">info@novosib.ru</a> 
+                        <a href="http://vk.com/optom_odezhda">vk.com/optom_odezhda</a>
+                    </div><!--/.contacts-->
+                </div><!--/.feedBack-->
 			</div>
 		</div>
 	</div>
