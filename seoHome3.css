@@ -40,14 +40,6 @@
 .content .aboutResults li{
     padding-bottom: .25em
 }
-.content UL.dashed{
-  padding-bottom: 0.75em;
-}
-.content UL.dashed LI{
-  list-style-type: none;
-  behavior: expression( !this.before ? this.before = this.innerHTML = '&mdash;&nbsp;' + this.innerHTML : '' );
-}
-.content UL.dashed LI:before { content: '\2014\a0'; }
 
 /*Methods*/
 .content .methodBlockList{

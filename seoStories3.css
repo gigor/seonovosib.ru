@@ -113,7 +113,7 @@
 .content .thesis{
     margin: 10px 0 20px 0;
     background: #f2f2f2;
-    padding: 10px;
+    padding: 16px;
     border-radius: 10px;
     overflow: hidden;
     clear: both;
@@ -123,32 +123,33 @@
 	display: none;
 	width: 700px;
 	position: fixed;
-	font-size: 26px;
 	top: 0;
-	line-height: 32px;
-	padding: 20px 0 10px 0;
+	padding: 10px 0 5px 0;
 }
 
-.content h3{
+.content .thesis h2{
     margin: 0 0 10px 0;
     font-size: 22px;
-    font-family: 'Arial Regular', 'Arial';
     font-weight: normal;
 }
-
-.content .thesis p{
-    font-size: 14px;
-    line-height: 16px;
-    font-family: 'Arial Regular', 'Arial';
+.content .thesis h3{
+    margin: 1em 0 .5em 0;
+    font-size: 18px;
+    font-weight: normal;
 }
-
+.content .thesis p{
+    font-size: 16px;
+    line-height: 1.4em;
+    padding-bottom: 0.75em
+}
+.content .thesis li{
+    font-size: 16px;
+    line-height: 1.4em;
+}
 .content .thesis p.shortDescription{
 	margin-bottom: 10px;
 }
 
-.content .thesis .thesisWrap{
-    
-}
 
 .content .thesis .imgWrapper {
 	position: relative;

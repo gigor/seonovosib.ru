@@ -71,7 +71,6 @@ a:hover {
 .leftSiteBar .back{
     height:30px;
     line-height: 30px;
-    ///padding-left: 10px;
     margin-bottom: 10px;
         
 }
@@ -94,7 +93,6 @@ a:hover {
 }
 
 .leftSiteBar .contacts .phone{
-	//font-weight: bold;
 	font-size: 18px;
 	margin: 20px 0 5px 0;
 }
@@ -141,6 +139,17 @@ a:hover {
 	margin-left: 20px;
 }
 
+/*List style*/
+.content UL.dashed{
+    padding:0 0 0.75em 1.24em ;
+}
+.content UL.dashed LI{
+    list-style-type: none;
+    text-indent: -1.24em;
+    padding-bottom: 0.25em;
+    behavior: expression( !this.before ? this.before = this.innerHTML = '&mdash;&nbsp;' + this.innerHTML : '' );
+}
+.content UL.dashed LI:before { content: '\2014\a0'; }
 
 /*Feedback*/
 .content .feedBack{
